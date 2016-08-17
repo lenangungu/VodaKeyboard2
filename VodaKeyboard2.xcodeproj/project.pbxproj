@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AA6B8E71D650777004A9EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6B8E61D650777004A9EDE /* AppDelegate.swift */; };
+		8AA6B8E91D650777004A9EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6B8E81D650777004A9EDE /* ViewController.swift */; };
+		8AA6B8EC1D650777004A9EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6B8EA1D650777004A9EDE /* Main.storyboard */; };
+		8AA6B8EE1D650777004A9EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6B8ED1D650777004A9EDE /* Assets.xcassets */; };
+		8AA6B8F11D650777004A9EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6B8EF1D650777004A9EDE /* LaunchScreen.storyboard */; };
+		8AA6B8FF1D650795004A9EDE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6B8FE1D650795004A9EDE /* KeyboardViewController.swift */; };
+		8AA6B9031D650796004A9EDE /* VodaCustomKeyboard2.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8AA6B8FC1D650795004A9EDE /* VodaCustomKeyboard2.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8AA6B90A1D6510AF004A9EDE /* VodaKeyboardView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6B9091D6510AF004A9EDE /* VodaKeyboardView2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA6B9011D650796004A9EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA6B8DB1D650777004A9EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA6B8FB1D650795004A9EDE;
+			remoteInfo = VodaCustomKeyboard2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8AA6B9071D650796004A9EDE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8AA6B9031D650796004A9EDE /* VodaCustomKeyboard2.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8AA6B8E31D650777004A9EDE /* VodaKeyboard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VodaKeyboard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA6B8E61D650777004A9EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AA6B8E81D650777004A9EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AA6B8EB1D650777004A9EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AA6B8ED1D650777004A9EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AA6B8F01D650777004A9EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AA6B8F21D650777004A9EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA6B8FC1D650795004A9EDE /* VodaCustomKeyboard2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VodaCustomKeyboard2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA6B8FE1D650795004A9EDE /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		8AA6B9001D650796004A9EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA6B9091D6510AF004A9EDE /* VodaKeyboardView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VodaKeyboardView2.xib; path = VodaKeyboard2/VodaKeyboardView2.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AA6B8E01D650777004A9EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA6B8F91D650795004A9EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AA6B8DA1D650777004A9EDE = {
+			isa = PBXGroup;
+			children = (
+				8AA6B8E51D650777004A9EDE /* VodaKeyboard2 */,
+				8AA6B8FD1D650795004A9EDE /* VodaCustomKeyboard2 */,
+				8AA6B8E41D650777004A9EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA6B8E41D650777004A9EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA6B8E31D650777004A9EDE /* VodaKeyboard2.app */,
+				8AA6B8FC1D650795004A9EDE /* VodaCustomKeyboard2.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AA6B8E51D650777004A9EDE /* VodaKeyboard2 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA6B8E61D650777004A9EDE /* AppDelegate.swift */,
+				8AA6B8E81D650777004A9EDE /* ViewController.swift */,
+				8AA6B8EA1D650777004A9EDE /* Main.storyboard */,
+				8AA6B8ED1D650777004A9EDE /* Assets.xcassets */,
+				8AA6B8EF1D650777004A9EDE /* LaunchScreen.storyboard */,
+				8AA6B8F21D650777004A9EDE /* Info.plist */,
+			);
+			path = VodaKeyboard2;
+			sourceTree = "<group>";
+		};
+		8AA6B8FD1D650795004A9EDE /* VodaCustomKeyboard2 */ = {
+			isa = PBXGroup;
+			children = (
+				8AA6B8FE1D650795004A9EDE /* KeyboardViewController.swift */,
+				8AA6B9001D650796004A9EDE /* Info.plist */,
+				8AA6B9091D6510AF004A9EDE /* VodaKeyboardView2.xib */,
+			);
+			path = VodaCustomKeyboard2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AA6B8E21D650777004A9EDE /* VodaKeyboard2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA6B8F51D650777004A9EDE /* Build configuration list for PBXNativeTarget "VodaKeyboard2" */;
+			buildPhases = (
+				8AA6B8DF1D650777004A9EDE /* Sources */,
+				8AA6B8E01D650777004A9EDE /* Frameworks */,
+				8AA6B8E11D650777004A9EDE /* Resources */,
+				8AA6B9071D650796004A9EDE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AA6B9021D650796004A9EDE /* PBXTargetDependency */,
+			);
+			name = VodaKeyboard2;
+			productName = VodaKeyboard2;
+			productReference = 8AA6B8E31D650777004A9EDE /* VodaKeyboard2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AA6B8FB1D650795004A9EDE /* VodaCustomKeyboard2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA6B9041D650796004A9EDE /* Build configuration list for PBXNativeTarget "VodaCustomKeyboard2" */;
+			buildPhases = (
+				8AA6B8F81D650795004A9EDE /* Sources */,
+				8AA6B8F91D650795004A9EDE /* Frameworks */,
+				8AA6B8FA1D650795004A9EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VodaCustomKeyboard2;
+			productName = VodaCustomKeyboard2;
+			productReference = 8AA6B8FC1D650795004A9EDE /* VodaCustomKeyboard2.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AA6B8DB1D650777004A9EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lena Ngungu Corp";
+				TargetAttributes = {
+					8AA6B8E21D650777004A9EDE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8AA6B8FB1D650795004A9EDE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AA6B8DE1D650777004A9EDE /* Build configuration list for PBXProject "VodaKeyboard2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AA6B8DA1D650777004A9EDE;
+			productRefGroup = 8AA6B8E41D650777004A9EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AA6B8E21D650777004A9EDE /* VodaKeyboard2 */,
+				8AA6B8FB1D650795004A9EDE /* VodaCustomKeyboard2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AA6B8E11D650777004A9EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA6B8F11D650777004A9EDE /* LaunchScreen.storyboard in Resources */,
+				8AA6B8EE1D650777004A9EDE /* Assets.xcassets in Resources */,
+				8AA6B8EC1D650777004A9EDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA6B8FA1D650795004A9EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA6B90A1D6510AF004A9EDE /* VodaKeyboardView2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AA6B8DF1D650777004A9EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA6B8E91D650777004A9EDE /* ViewController.swift in Sources */,
+				8AA6B8E71D650777004A9EDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA6B8F81D650795004A9EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA6B8FF1D650795004A9EDE /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AA6B9021D650796004A9EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AA6B8FB1D650795004A9EDE /* VodaCustomKeyboard2 */;
+			targetProxy = 8AA6B9011D650796004A9EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AA6B8EA1D650777004A9EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA6B8EB1D650777004A9EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AA6B8EF1D650777004A9EDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA6B8F01D650777004A9EDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AA6B8F31D650777004A9EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AA6B8F41D650777004A9EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AA6B8F61D650777004A9EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = VodaKeyboard2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenangungu.VodaKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AA6B8F71D650777004A9EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = VodaKeyboard2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenangungu.VodaKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AA6B9051D650796004A9EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VodaCustomKeyboard2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenangungu.VodaKeyboard2.VodaCustomKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8AA6B9061D650796004A9EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VodaCustomKeyboard2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lenangungu.VodaKeyboard2.VodaCustomKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AA6B8DE1D650777004A9EDE /* Build configuration list for PBXProject "VodaKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA6B8F31D650777004A9EDE /* Debug */,
+				8AA6B8F41D650777004A9EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA6B8F51D650777004A9EDE /* Build configuration list for PBXNativeTarget "VodaKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA6B8F61D650777004A9EDE /* Debug */,
+				8AA6B8F71D650777004A9EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA6B9041D650796004A9EDE /* Build configuration list for PBXNativeTarget "VodaCustomKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA6B9051D650796004A9EDE /* Debug */,
+				8AA6B9061D650796004A9EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AA6B8DB1D650777004A9EDE /* Project object */;
+}
